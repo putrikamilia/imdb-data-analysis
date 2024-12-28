@@ -1,5 +1,4 @@
 pandas
-ast
 matplotlib
 seaborn
 datetime
