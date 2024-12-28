@@ -3,7 +3,8 @@ import pandas as pd
 import numpy as np
 import altair as alt
 import plotly.express as px
-
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
 
 # Load data
 df = pd.read_csv('/mount/src/imdb-data-analysis/dashboard/movies.csv')
@@ -246,9 +247,6 @@ def plot_genre_treemap(data):
 
 
 # wordcloud judul film
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
-
 def plot_wordcloud_titles(data):
     text = ' '.join(data['primaryTitle'].dropna())
     wordcloud = WordCloud(
