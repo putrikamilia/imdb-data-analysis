@@ -277,7 +277,7 @@ st.markdown(
 
 # Sidebar
 with st.sidebar:
-    st.image('imdb_logo-removebg-preview.png')
+    st.image('/mount/src/imdb-data-analysis/dashboard/imdb_logo-removebg-preview.png')
     
     st.title('Filter Data')
 
