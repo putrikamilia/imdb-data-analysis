@@ -70,6 +70,11 @@ The required Python libraries are listed in the `requirements.txt` file. To inst
 pip install -r requirements.txt
 ```
 
+## Live Demo
+
+Explore the live version of the IMDB Movies Dashboard here: [Streamlit Dashboard](https://imdb-data-analysis-evjcnprnx3zhctepnyg3gq.streamlit.app/)
+
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
