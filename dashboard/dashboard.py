@@ -6,7 +6,7 @@ import plotly.express as px
 
 
 # Load data
-df = pd.read_csv('movies.csv')
+df = pd.read_csv('/mount/src/imdb-data-analysis/movies.csv')
 
 ## FUNGSI-FUNGSI UNTUK ANALISIS DATA
 
